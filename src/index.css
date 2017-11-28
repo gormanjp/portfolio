@@ -1,0 +1,267 @@
+/* STYLES
+================================================*/
+html,
+body {
+	height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+}
+
+.section {
+	padding-top: 20px;
+	padding-bottom: 35px;
+	font-size: 150%;
+}
+
+.hr {
+	margin: 0 42%;
+}
+
+
+/*JUMBOTRON
+================================================*/
+.jumbotron {
+	text-align: center;
+	height: 100vh;
+	min-height: 675px;
+	max-width: 100%;
+	background: url('https://images.unsplash.com/photo-1440688807730-73e4e2169fb8?q=80&fm=jpg&s=79978a74e55792a7a5182ba0c0aa4e25&w=2000&h=1200') no-repeat center;
+	background-position: center 18%;
+	background-size: cover;
+	margin-bottom: 0px;
+}
+
+.jumbotron .col-md-5{
+	margin-top: 15px;
+}
+
+.intro {
+	color: white;
+	text-transform: uppercase;
+	padding-top: 160px;
+}
+
+hr {
+	border-color: inherit;
+}
+
+#jamie h2{
+	color:#F0E93F;
+	letter-spacing: 3px;
+}
+
+/*NAVBAR
+================================================*/
+.header {
+	padding: 8px 0px;
+	background-color: rgb(0,0,0,.25);
+	height: 65px;
+	position: fixed;
+	top: 0;
+	width: 100%;
+	padding-top: 12px;
+	z-index: 9999;
+}
+
+.nav li{
+	display: inline-block;
+}
+
+.nav li a{
+	color:#F0E93F;
+	padding: 3px 6px;
+	margin: 5px;
+	border: solid 4px rgba(0,0,0,0);
+	letter-spacing: 2px;
+}
+
+.nav li a:hover{
+	border: solid 4px rgba(0,0,0,.25);
+	background: inherit;
+}
+
+/*PROJECTS
+================================================*/
+.portfolio {
+	padding: 15px 15px 38px 15px;
+}
+
+.project {
+	width: 95%;
+	max-width: 375px;
+	margin: 0 auto 25px auto;
+	padding: 10px;
+	height: 220px;
+}
+
+.img-thumbnail {
+	display: block;
+}
+
+.hovertext{
+	opacity: 0;
+	color: black;
+	text-align: center;
+}
+
+.hovertext span{
+	color:#A1A1A1;
+}
+
+.project:hover {
+
+	opacity: 1;
+	text-align: center;
+	-webkit-transition: opacity .3s ease;
+	-moz-transition: opacity .3s ease;
+}
+
+.project:hover + .hovertext {
+	opacity: 1;
+	-webkit-transition: opacity .3s ease;
+	-moz-transition: opacity .3s ease;
+}
+
+a:hover {
+	text-decoration: none;
+}
+
+
+
+/*ABOUT
+================================================*/
+.about {
+	background-color: #33333C;
+	color: white;
+}
+
+
+.content {
+	padding: 15px;
+	color: inherit;
+}
+
+#about-me a{
+	text-decoration: none;
+	color: #F0E93F;
+}
+
+/*CONTACT
+================================================*/
+.contact {
+	color: white;
+	height: 90%;
+	min-height: 525px;
+	max-width: 100%;
+	background: url('https://images.unsplash.com/photo-1437419764061-2473afe69fc2?q=80&fm=jpg&s=dcd9e314d8ab14e81451c73bbbe98aa9') no-repeat center;
+	background-size: cover;
+	background-position: center top;
+}
+
+.contact-box {
+	height: auto;
+	margin: 8% 18%;
+	padding: 20px;
+}
+
+#message,
+#name,
+#email {
+	background: rgba(200,200,200,.8);
+	border: none;
+	color: black;
+}
+
+#message {
+	min-width: 250px;
+}
+
+#submit {
+	background: rgba(0,0,0,0);
+	border: 2px solid white;
+	border-radius: 3px;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+
+#submit:hover {
+	background-color: white;
+	color: black;
+}
+
+.form-control::-webkit-input-placeholder { /* WebKit browsers */
+color: #6A6A6A;
+font-weight: 600;
+}
+.form-control:-moz-placeholder { /* Mozilla Firefox 4 - 18 */
+color: #6A6A6A;
+text-transform: uppercase;
+font-weight: 600;
+}
+.form-control::-moz-placeholder { /* Mozilla Firefox 19+ */
+color: #6A6A6A;
+text-transform: uppercase;
+font-weight: 600;
+}
+.form-control:-ms-input-placeholder { /* Internet Explorer 10+ */
+color: #6A6A6A;
+text-transform: uppercase;
+font-weight: 600;
+}
+
+input, select, textarea {
+	color: black;
+	font-weight: 500;
+}
+
+/*FOOTER
+================================================*/
+.footer{
+	background-color: #33333C;
+	color: white;
+	height: 45px;
+	padding: 12px 0 0 0;
+}
+
+.email{
+  text-decoration: none;
+  color: #F0E93F;
+}
+
+.email:hover{
+  color: white;
+}
+
+
+/*UNDERLINE
+================================================*/
+.underline {
+	border-bottom: 1px solid;
+	padding-bottom: 15px;
+}
+
+
+/*RALEWAY FONT
+================================================*/
+.ralewayBig {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 400;
+}
+
+.ralewaySmall {
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
+}
+
+@media (max-width: 767px){
+	.contact-box{
+		margin-top: -20px;
+	}
+}
+
+@media (max-width: 990px){
+	.hovertext{
+		opacity: 1;
+	}
+}
