@@ -3,7 +3,7 @@ import { Jumbotron } from 'react-bootstrap';
 
 export const Intro = () => {
   return (
-    <Jumbotron className="intro">
+    <Jumbotron className="intro" id="home">
       <h1 className="ralewaySmall">Hi there!</h1>
       <div className="container">
         <div className="row">
