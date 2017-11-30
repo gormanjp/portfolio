@@ -136,6 +136,12 @@ a:hover {
 	color: white;
 }
 
+.about__photo {
+  border-radius: 50%;
+  width: 90%;
+  margin-left: 40px;
+  margin-top: -20px;
+}
 
 .content {
 	padding: 15px;
@@ -145,6 +151,8 @@ a:hover {
 #about-me a{
 	text-decoration: none;
 	color: #F0E93F;
+  line-height: 1.5em;
+  letter-spacing: .01em;
 }
 
 /*CONTACT

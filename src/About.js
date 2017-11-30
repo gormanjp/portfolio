@@ -2,21 +2,21 @@ import React from 'react';
 
 export const About = () => {
   return (
-    <div class = "about section ralewaySmall" id = "about" > <div class="container text-center">
+    <div className = "about section ralewaySmall" id = "about" > <div className="container text-center">
       <div>
         <h2>ABOUT</h2>
       </div>
-      <div class="hr text-center">
+      <div className="hr text-center">
         <hr/></div>
       </div>
-      <div class="container">
-        <div class="row content">
-          <div class="col-md-2 col-sm-offset-1 visible-lg" id="face">
-            <img class="img-responsive" src="img/me.jpg"/></div>
-          <div class="col-lg-8 col-sm-offset-1" id="about-me">
+      <div className="container">
+        <div className="row content">
+          <div className="col-md-3 visible-lg" id="face">
+            <img className="img-responsive about__photo" src="jamie.png"/></div>
+          <div className="col-lg-8 col-sm-offset-1" id="about-me">
             <p>
-              I am a front-end web developer based in Charlottesville, Virginia. My main goal is to build high quality web sites that are clean and functional while maintaining ease of use for both users and content managers. I have experience building websites with Content Management Systems like WordPress as well as from the ground up with Bootstrap, HTML, CSS, and JavaScript. If youre in need of a website, or just want to say hello -
-              <a href="#contact">Drop us a line</a>!
+              I am a software developer based in Charlottesville, Virginia.  My goal is to learn new technologies while building apps that both provide value and delight users.  I have full stack experience building production software using tools and frameworks such as React, Meteor, Redux, MongoDB, SQL, node.js, CSS, LESS, and more.  If you'd like to chat, please
+              <a href="mailto:jpgorman8@gmail.com"> email me!</a>
             </p>
           </div>
         </div>
