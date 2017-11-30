@@ -1,10 +1,16 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
-export const Project = () => {
+export const Project = (props) => {
   return (
-    <a href="http://roughcutdesign.com/" target="_blank" class="col-md-4">
-      <img class="img-thumbnail img-responsive project" src="img/RCD.jpg"/>
-      <div class='hovertext raleway400'><p>Developer Portfolio<br/><span>Logo Design | CMS | HTML | CSS</span></p></div>
+    <a href={props.url} target="_blank" className="col-md-4">
+      <img className="img-thumbnail img-responsive project" src={props.image}/>
+      <div className='hovertext raleway400'><p>{props.hoverTextHeader}<br/><span>{props.hoverText}</span></p></div>
     </a>
   )
 };
+
+Project.propTypes = {
+  url: PropTypes.string,
+  image: PropTypes.string
+}
