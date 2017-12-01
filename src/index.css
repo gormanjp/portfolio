@@ -18,6 +18,10 @@ body {
 	margin: 0 42%;
 }
 
+.hr--yellow {
+	color: #f1e93f;
+}
+
 
 /*JUMBOTRON
 ================================================*/
@@ -85,7 +89,12 @@ hr {
 ================================================*/
 .portfolio {
 	padding: 15px 15px 38px 15px;
-  max-height: 368px;
+}
+
+.projects {
+	background-color: #33333C;
+	color: white;
+	padding-bottom: 0;
 }
 
 .project {
@@ -105,8 +114,10 @@ hr {
 
 .hovertext{
 	opacity: 0;
-	color: black;
+	color: white;
 	text-align: center;
+	font-family: 'Raleway', sans-serif;
+	font-weight: 100;
 }
 
 .hovertext span{
@@ -132,26 +143,36 @@ a:hover {
 	text-decoration: none;
 }
 
-
-
-
 /*ABOUT
 ================================================*/
 .about {
 	background-color: #33333C;
+}
+
+.aboutInner {
 	color: white;
+	margin: 30px 10% 0;
+	border: 1px solid #f1e93f;
+	border-radius: 8px;
 }
 
 .about__photo {
-  border-radius: 50%;
-  width: 90%;
-  margin-left: 40px;
-  margin-top: -20px;
+	border-radius: 50%;
+  width: 80%;
+  margin-left: 49px;
+  margin-top: -60px;
+  margin-bottom: 10px;
 }
 
 .content {
 	padding: 15px;
 	color: inherit;
+	font-size: 18px;
+  text-align: justify;
+}
+
+.contentInner{
+	 padding: 0 50px 0 40px;
 }
 
 #about-me a{
@@ -236,14 +257,24 @@ input, select, textarea {
 	color: white;
 	height: 45px;
 	padding: 12px 0 0 0;
+  overflow: hidden;
 }
 
 .email{
   text-decoration: none;
   color: #F0E93F;
+  font-size: 16px;
+  vertical-align: top;
 }
 
-.email:hover{
+.social {
+  font-size: 25px;
+  vertical-align: top;
+  margin-right: 20px;
+  color: #F0E93F;
+}
+
+.email:hover, .social:hover{
   color: white;
 }
 

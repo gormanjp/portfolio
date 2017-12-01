@@ -30,7 +30,7 @@ export class Nav extends React.Component {
   render(){
     return (
     <div className="">
-      <Modal bsSize="large" style={{marginTop: '40px'}} show={this.state.modalOpen} onHide={this.close}>
+      <Modal bsSize="large" style={{marginTop: '55px'}} show={this.state.modalOpen} onHide={this.close}>
         <Modal.Body>
           <img
             src="resume.png"
