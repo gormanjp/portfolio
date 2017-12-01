@@ -17,7 +17,7 @@ export const About = () => {
               <div className="col-lg-9 contentInner" id="about-me">
                 <p>
                   I am a software developer based in Charlottesville, Virginia.  My goal is to learn new technologies while building apps that both provide value and delight users.  I have full stack experience building production software using tools and frameworks such as React, Meteor, Redux, MongoDB, SQL, node.js, CSS, LESS, and more.  If you'd like to chat, please
-                  <a href="mailto:jpgorman8@gmail.com"> email me!</a>
+                  <a href="mailto:jpgorman8@gmail.com"> <strong>email me!</strong></a>
                 </p>
               </div>
             </div>

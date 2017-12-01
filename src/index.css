@@ -16,10 +16,7 @@ body {
 
 .hr {
 	margin: 0 42%;
-}
-
-.hr--yellow {
-	color: #f1e93f;
+	color: gray;
 }
 
 
@@ -92,8 +89,8 @@ hr {
 }
 
 .projects {
-	background-color: #33333C;
-	color: white;
+	background-color: white;
+	color: #33333c;
 	padding-bottom: 0;
 }
 
@@ -114,10 +111,10 @@ hr {
 
 .hovertext{
 	opacity: 0;
-	color: white;
+	color: #33333c;
 	text-align: center;
 	font-family: 'Raleway', sans-serif;
-	font-weight: 100;
+	font-weight: 200;
 }
 
 .hovertext span{
@@ -146,19 +143,21 @@ a:hover {
 /*ABOUT
 ================================================*/
 .about {
-	background-color: #33333C;
+	background-color: white;
 }
 
 .aboutInner {
-	color: white;
+	color: #33333c;
 	margin: 30px 10% 0;
-	border: 1px solid #f1e93f;
+	border: 1px solid #33333c;
 	border-radius: 8px;
+	font-weight: 200;
 }
 
 .about__photo {
 	border-radius: 50%;
   width: 80%;
+	border: 1px solid gray;
   margin-left: 49px;
   margin-top: -60px;
   margin-bottom: 10px;
