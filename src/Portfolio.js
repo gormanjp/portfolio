@@ -14,12 +14,6 @@ const projects = [
     hoverTextHeader: 'Technology Startup',
     hoverText: 'HTML | CSS |  Bootstrap | PHP'
   },
-  {
-    image: 'inspyr.png',
-    url: 'http://www.inspyrstudios.com/',
-    hoverTextHeader: 'Inspyr Studios',
-    hoverText: 'React | Redux | LESS'
-  },
 ];
 
 export const Portfolio = () => {
